@@ -77,6 +77,7 @@ equal.addEventListener("click", function () {
     }
     screen.innerText = result;
     currOp = 0;
+    result = 0;
 });
 
 nums.forEach(function (button) { // iterating through all elements part of class num
