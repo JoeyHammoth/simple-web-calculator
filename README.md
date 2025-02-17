@@ -1,5 +1,7 @@
 # Simple Web Calculator
 
+<img src="https://github.com/JoeyHammoth/simple-web-calculator/blob/main/Logo.png" alt="logo" width="1000">
+
 A simple, elegant, and beautiful web calculator built with HTML, CSS, and JavaScript. This project demonstrates basic arithmetic operations and interactive UI design using modern web technologies. The final product can be found [here](https://joeyhammoth.github.io/simple-web-calculator/).
 
 ---
