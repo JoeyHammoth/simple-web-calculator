@@ -1,0 +1,136 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: grey;
+    font-weight: 900;
+}
+
+.screen {
+    grid-area: header;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.normal-but, .op-but {
+    font-size: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.normal-but {
+    background-color: lightgrey;
+}
+
+.normal-but:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.normal-but:active {
+    background-color: rgb(234, 234, 234);
+}
+
+.op-but {
+    background-color: orange;
+}
+
+.op-but:hover {
+    background-color: rgb(255, 205, 111);
+}
+
+.op-but:active {
+    background-color: rgb(255, 231, 185);
+}
+
+#but-c {
+    grid-area: clear;
+}
+
+#but-back {
+    grid-area: back;
+}
+
+#but-add {
+    grid-area: addition;
+}
+
+#but-subtract {
+    grid-area: subtraction;
+}
+
+#but-prod {
+    grid-area: prod;
+}
+
+#but-quotient {
+    grid-area: quotient;
+}
+
+#but-equal {
+    grid-area: equal;
+}
+
+#but-0 {
+    grid-area: zeros;
+}
+
+#but-1 {
+    grid-area: one;
+}
+
+#but-2 {
+    grid-area: two;
+}
+
+#but-3 {
+    grid-area: three;
+}
+
+#but-4 {
+    grid-area: four;
+}
+
+#but-5 {
+    grid-area: five;
+}
+
+#but-6 {
+    grid-area: six;
+}
+
+#but-7 {
+    grid-area: seven;
+}
+
+#but-8 {
+    grid-area: eight;
+}
+
+#but-9 {
+    grid-area: nine;
+}
+
+.calculator {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "clear clear back quotient"
+        "seven eight nine prod"
+        "four five six subtraction"
+        "one two three addition"
+        "zeros zeros zeros equal";
+    row-gap: 2px;
+    column-gap: 2px;
+    background-color: black;
+    border: black solid 5px
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
