@@ -73,11 +73,10 @@ equal.addEventListener("click", function () {
         result *= num;
     } else if (currOp == 4) {
         result /= num;
+        result = Math.floor(result);
     }
     screen.innerText = result;
     currOp = 0;
-    num = 0;
-    result = 0;
 });
 
 nums.forEach(function (button) { // iterating through all elements part of class num
